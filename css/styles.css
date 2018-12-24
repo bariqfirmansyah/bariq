@@ -1,0 +1,195 @@
+html, body {
+           height: 100%;
+           margin: 0;
+           padding: 0;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  width: 30%;
+  margin: 0px auto;
+  font-size: 500%;
+  position: relative;
+  top:30%;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+.top-container{
+  background-image: url(../images/backg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size:100% 100%;
+  text-align: center;
+  /* background-size: cover;
+  background-color: #69779b;
+  text-align: center;
+  margin:0;
+  position: relative;
+  padding-top:258px;
+  padding-bottom: 259px; */
+}
+.middle-container{
+  background-color: #7efaff;
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+  padding-top: 20px;
+}
+.bottom-container{
+  background-color: #1a3263;
+  padding:50px 0;
+  text-align: center;
+}
+
+.momo{
+  width:50%;
+  margin: auto;
+}
+
+.profile-image{
+    width:35%;
+}
+
+hr{
+  width:4%;
+  border: dotted white 0px;
+  border-top-width: 5px;
+}
+
+.middle-image1{
+  width:25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.middle-image2{
+  width:25%;
+  float: right;
+  margin-left:40px;
+}
+
+h2{
+    color:7efaff;
+}
+
+.lamp{
+  width:5%;
+}
+
+#main{
+  width: 23%;
+  visibility: hidden;
+}
+
+.top-lamp{
+  position: absolute;
+  right:420px;
+  top:150px;
+  visibility: hidden;
+}
+
+.bottom-lamp{
+  position: absolute;
+  left:400px;
+  bottom:260px;
+  visibility: hidden;
+}
+.skills{
+    margin: 50px auto;
+}
+
+.profile{
+  padding-top:30px;
+  padding-bottom: 30px;
+  width: 50%;
+  margin:0px auto;
+}
+
+.contact-me{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 50px auto;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.contact-me{
+  width:50%;
+  margin: auto;
+}
+
+.contact-message{
+  width:50%;
+  margin:40px auto;
+}
+
+.contactbutton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #eb675e));
+	background:-moz-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+	background:-webkit-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+	background:-o-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+	background:-ms-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+	background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#eb675e',GradientType=0);
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:16px;
+	font-style:italic;
+	padding:11px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.contactbutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eb675e), color-stop(1, #e4685d));
+	background:-moz-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+	background:-ms-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+	background:linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb675e', endColorstr='#e4685d',GradientType=0);
+	background-color:#eb675e;
+}
+.contactbutton:active {
+	position:relative;
+	top:1px;
+  background-color:#ff00ff;
+}
+
+.caption{
+  color: #fff0bc;
+  font-size: 12px;
+  position: relative;
+  top:30%;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-link{
+  margin:0 10px;
+}
